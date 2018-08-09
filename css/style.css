@@ -1,0 +1,147 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    background: #000000 url(../images/background.jpg) no-repeat fixed top;
+}
+
+.dropdown-menu-wiki li a {
+    color: #c9c9c9
+}
+
+.theme-showcase>p>.btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+.container-wiki {
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.8);    
+}
+
+.page-main{
+    position: relative;
+    width: 1200px;
+    margin:0 auto 15px;
+}
+.navbar-wiki .container {
+    width: 100%;
+}
+
+.page-header{
+    margin-top: 10px;
+    padding-bottom: 0;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: none;
+    color: #ffffff;
+    border-bottom: 3px solid #897859;
+}
+
+.ds3-hr{
+    margin:20px auto;
+    border: 0;
+    border-top: 0;
+    background: rgba(0, 0, 0, 0) url(../images/dks-remaster-wiki-hr.png) no-repeat;
+    height: 13px;
+    max-width: 936px;
+}
+
+.wiki-link {
+    text-decoration:none;
+    display: inline-block;
+    max-width: 100%!Important;
+    border-bottom: 0;
+    color: #ab966f;
+}
+
+.wiki-link:hover,
+.wiki-link:active{
+    text-decoration:none;
+    color: #897859;    
+    border-bottom:1px solid #ab966f;
+    /* padding-bottom:2px; */
+
+}
+.glow-corners:before,
+.glow-corners:after {
+    border-color: #00edff;
+    border-style: solid;
+    content: "";
+    height: 28px;
+    position: absolute;
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    width: 28px
+}
+
+
+.glow-corners {
+    position: absolute;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    width: 100%;
+    z-index: 3
+}
+
+.glow-corners.top-corners {
+    top: 0
+}
+
+.glow-corners:before {
+    left: 0
+}
+
+.glow-corners:after {
+    right: 0
+}
+
+.glow-corners.bottom-corners {
+    bottom: 13px
+}
+
+.glow-corners.top-corners:before {
+    border-width: 2px 0 0 2px
+}
+
+.glow-corners.top-corners:after {
+    border-width: 2px 2px 0 0
+}
+
+.glow-corners.bottom-corners:before {
+    border-width: 0 0 2px 2px
+}
+
+.glow-corners.bottom-corners:after {
+    border-width: 0 2px 2px 0
+}
+
+.glow-corners:before,
+.glow-corners:after {
+    border-color: #ab966f;
+    height: 16px;
+    width: 100%
+}
+
+.wiki-footer-nav{
+    font-family: "monofontoregular";
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-sticky {
+    background: rgba(0,0,0,.8) none repeat scroll 0 0;
+    border-top: 5px solid #ab966f;
+    color: #ab966f;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    font-family: arial;
+}
+.footer-sticky ul li a {color: #ab966f;}
